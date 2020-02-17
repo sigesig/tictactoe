@@ -3,7 +3,7 @@ import org.junit.Test;
 import tictactoe.common.framework.Game;
 import tictactoe.common.framework.Player;
 import tictactoe.common.framework.Position;
-import main.tictactoe.common.standard.GameImpl;
+import tictactoe.common.standard.GameImpl;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;

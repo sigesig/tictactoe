@@ -1,4 +1,4 @@
 package tictactoe.common.standard;
 
-public class SimpleGUI {
+public class SimpleGui {
 }

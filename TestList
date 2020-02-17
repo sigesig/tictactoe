@@ -1,0 +1,43 @@
+-------------------------- General Test --------------------------
+[OK] - First player is cross
+[OK] - After cross turn end circle player turn
+[OK] - Cross player place cross in top left connor
+[OK] - Circle player place circle in top left connor at its first turn
+[OK] - Circle can not be placed in a position with a piece in already
+[OK] - Cross can not be placed in a position with a piece in already
+[OK] - Cross player can not place two pieces in one turn
+[OK] - Circle player can not place two pieces in one turn
+[] - Player cannot place piece outside of board(Invalid Position)
+
+
+
+
+-------------------------- Full Plate --------------------------
+Player vs Player
+
+
+
+
+Player vs AI
+
+
+-------------------------- 3 pieces Plate --------------------------
+Player vs Player
+
+
+
+
+
+Player vs AI
+
+
+
+
+
+/**
+     * Move a piece from one position to another position
+     * @param from position
+     * @param to position
+     * @return true or false if the piece has been moved or not
+     */
+    public boolean movePiece(Position from, Position to);
